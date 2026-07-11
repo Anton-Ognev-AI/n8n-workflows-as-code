@@ -1,5 +1,7 @@
 # n8n workflows as code
 
+[![CI](https://github.com/Anton-Ognev-AI/n8n-workflows-as-code/actions/workflows/ci.yml/badge.svg)](https://github.com/Anton-Ognev-AI/n8n-workflows-as-code/actions/workflows/ci.yml)
+
 **Deploy and version-control n8n automations as idempotent code instead of clicking through the UI.**
 
 Each workflow is defined in a plain Node.js script that talks to the n8n public API. Running the script `PUT`s the workflow definition, wires the credentials, and activates it — reproducibly, from a clean checkout, with no manual clicking.
