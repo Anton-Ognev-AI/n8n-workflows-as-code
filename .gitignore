@@ -1,0 +1,18 @@
+# Secrets and environment
+.env
+.env.*
+!.env.example
+
+# Local deploy state (workflow / credential IDs written at deploy time)
+.deploy-state.json
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

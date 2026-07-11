@@ -1,0 +1,27 @@
+{
+  "name": "n8n-workflows-as-code",
+  "version": "1.0.0",
+  "description": "Deploy n8n workflows as idempotent, version-controlled code instead of clicking through the UI. Credentials referenced by ID from a gitignored .env, a single-source-of-truth formatter injected into the Code node, and a promote-and-deploy gate.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Anton Ognev",
+  "scripts": {
+    "deploy:weather": "node deploy-weather.mjs",
+    "deploy:english": "node deploy-english-phrases.mjs",
+    "send:weather": "node send-weather-now.mjs",
+    "promote": "node promote-and-deploy.mjs"
+  },
+  "keywords": [
+    "n8n",
+    "workflow-as-code",
+    "infrastructure-as-code",
+    "idempotent-deploy",
+    "automation",
+    "telegram-bot",
+    "openai",
+    "nodejs"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
